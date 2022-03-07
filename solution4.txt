@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset ="utf-8" />
+    <!--(^this*) i honestly don't know what this(*) does but it's been so helpful since i LEFT it there.
+        i like to think of it as a good luck charm or a totem-->
+<title>The ADE Experience</title><!--the title took a little doing but eventually fell in line-->
+</head>
+<body>
+
+
+
+    <h1 style="color:White;">Welcome</h1><!--special thanks to Robin-->
+    <p>
+        Thank You! <hr>
+        Please feel free to reach out & don't forget to inquire about THE MERCH <hr />
+        Merch landing soon across several sites, social medium and on the streets!
+    </p>
+
+    <!IMG src=(https://user-images.githubusercontent.com/97244700/156807238-15e2c868-ec70-49a6-aa5f-621cb8ad286d.PNG) />
+    <IMG src="https://user-images.githubusercontent.com/97244700/156807238-15e2c868-ec70-49a6-aa5f-621cb8ad286d.PNG" alt="Suited" style="width:350px;height:777px;">
+
+   
+    <a href="https://www.tiktok.com/@adegambit7/">FGotta TikTok? Check out some goofy short vids here!</a>
+   
+    <a href="https://www.youtube.com/channel/UC534D0kLREw8mHMSF7eJYkQ/">Gotta YouTube? Check out some weird art and music here!</a>
+    <body style="background-color:LightGray;">
+
+  </body>
+    
+</html>

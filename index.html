@@ -10,7 +10,7 @@
                     <img src="Picture 177(2).png" alt="logo"style="width:34px;height:34px;";>
                 </a>-->
 <title>The ADE Experience</title><!--the title took a little doing but eventually fell in line-->
-</head>
+
 <style>
 img {
   width: 100%;
@@ -22,6 +22,46 @@ img {
   align-content: center;
            }</style>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- so far, works wonders on Mobile-->
+   .container {
+  position: relative;
+  width: 50%;
+}
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: red;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+</style>
+    </head>
 <body>
     <h1 style="color:DimGray;">Welcome All!</h1><!--special thanks to Robin-->
 <body style="text-align:center;">
@@ -63,7 +103,13 @@ img {
          <h4 style="color:DimGrey;"> Content Updated Daily!</h4>
 
          <h5 style="color:DimGrey;">The Man, The Myth, The Me!</h5>
-    <IMG src="https://www.github.com/adeGambit/adeGambit.github.io/blob/main/suitedWM.jpg" alt="Suited" style="width:350px;height:700px;border-radius:99px">
+<div class="container">
+  <img src="https://github.com/adeGambit/adeGambit.github.io/blob/main/suitedWM.jpg?raw=true" alt="Avatar" class="image" style="width:100%">
+  <div class="middle">
+    <div class="text">ade</div>
+  </div>
+</div>
+   <!-- <IMG src="https://github.com/adeGambit/adeGambit.github.io/blob/main/suitedWM.jpg" alt="Suited" style="width:350px;height:700px;border-radius:99px">-->
 
                                  <hr></hr>
     <a href="https://www.tiktok.com/@adegambit7/">Gotta TikTok? Check out some goofy short vids here!</a>

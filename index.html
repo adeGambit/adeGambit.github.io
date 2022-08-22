@@ -162,11 +162,31 @@ li a:hover {
   text-align: center;
 }
 
+.left {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.right {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
 .container:hover .image {
   opacity: 0.3;
 }
 
-.container:hover .middle {
+.container:hover .middle .left .right{
   opacity: 1;
 }
 

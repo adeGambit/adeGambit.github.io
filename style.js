@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <body>
- VanillaTilt.init(document.querySelectorAll(".box"), {
+ VanillaTilt.init(document.querySelectorAll(".container"), {
 		max: 25,
         speed: 400,
         easing:"cubic-bezier(.03,.98,.52,.99)",

@@ -300,5 +300,35 @@ window.alert("i SAID: what up, fool? now YOU say...");<!-- natured -->
             <script>
 window.alert("thanks, it's just really nice to hear your voice.");<!-- fun -->
             </script>
+<footer>
+    div.main
+div.footer
+    div.bubbles
+        - for (var i = 0; i < 128; i++) //Small numbers looks nice too
+            div.bubble(style=`--size:${2+Math.random()*4}rem; --distance:${6+Math.random()*4}rem; --position:${-5+Math.random()*110}%; --time:${2+Math.random()*2}s; --delay:${-1*(2+Math.random()*2)}s;`)
+    div.content
+        div
+            div
+                b Bucky...
+                a(href="#") Longing
+                a(href="#") Rusted
+                a(href="#") Furnace
+                a(href="#") Daybreak
+                a(href="#") Seventeen
+                a(href="#") Benign
+                a(href="#") Nine
+                a(href="#") Homecoming
+                a(href="#") One
+                a(href="#") Freight Car
+  
+            a.image(href="https://www.adegambit.github.io/favicon.ico" target="_blank" style="background-image: url(\"https://s3-us-west-2.amazonaws.com/s.cdpn.io/199011/happy.svg\")")
+            p ©2021 Not Really
+svg(style="position:fixed; top:100vh")
+    defs
+        filter#blob
+            feGaussianBlur(in="SourceGraphic" stdDeviation="10" result="blur")
+            feColorMatrix(in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="blob")
+            //feComposite(in="SourceGraphic" in2="blob" operator="atop") //After reviewing this after years I can't remember why I added this but it isn't necessary for the blob effect
+</footer>
 </body>
 </html>

@@ -238,3 +238,39 @@ body .footer .content > div .image {
     bottom: var(--distance, 10rem);
   }
 }
+
+element.style {
+}
+body .footer .content > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+body .footer {
+    z-index: 1;
+    --footer-background: #ED5565;
+    display: grid;
+    position: relative;
+    grid-area: footer;
+    min-height: 12rem;
+}
+body {
+    display: grid;
+    grid-template-rows: 1fr 10rem auto;
+    grid-template-areas:
+        "main"
+        "."
+        "footer";
+    overflow-x: hidden;
+    background: #F5F7FA;
+    min-height: 100vh;
+    font-family: "Open Sans", sans-serif;
+}
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}

@@ -9,4 +9,7 @@
         transition:true
     });
 </body>
+<footer>
+	pug.compile()
+</footer>
 </html>
